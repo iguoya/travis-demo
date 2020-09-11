@@ -7,7 +7,7 @@ services:
 
 before_script:
   # 登录到 docker hub
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "120725lgy" | docker login -u "iguoya" --password-stdin
 
 script:
   # 这里编写测试代码的命令
